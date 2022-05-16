@@ -3,6 +3,6 @@ public class PrintStringConcat {
         String texto1 = "Holberton";
         String texto2 = "School";
         String textoCompleto = texto1 + " " + texto2;
-        System.out.println("Bem vindo a " + textoCompleto);
+        System.out.println("Bem vindo a " + textoCompleto + "!");
     }
 }
