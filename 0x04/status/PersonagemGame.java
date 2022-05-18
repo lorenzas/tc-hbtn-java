@@ -1,5 +1,3 @@
-package status;
-
 public class PersonagemGame {
     private int saudeAtual;
     private String nome;
@@ -31,18 +29,10 @@ public class PersonagemGame {
     }
 
     public void tomarDano(int quantidadeDeDano) {
-        if (saudeAtual - quantidadeDeDano < 0) {
-            setSaudeAtual(0);
-        } else {
-            setSaudeAtual(saudeAtual - quantidadeDeDano);
-        }
+        setSaudeAtual(Math.max(saudeAtual - quantidadeDeDano, 0));
     }
 
     public void receberCura(int quantidadeDeCura) {
-        if (saudeAtual + quantidadeDeCura > 100) {
-            setSaudeAtual(100);
-        } else {
-            setSaudeAtual(saudeAtual + quantidadeDeCura);
-        }
+        setSaudeAtual(Math.min(saudeAtual + quantidadeDeCura, 100));
     }
 }
