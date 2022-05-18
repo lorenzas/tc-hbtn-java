@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
-      <excludeFolder url="file://$MODULE_DIR$/0x04/metodos" />
+      <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

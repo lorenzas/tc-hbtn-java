@@ -19,18 +19,10 @@ public class PersonagemGame {
     }
 
     public void tomarDano(int quantidadeDeDano) {
-        if (saudeAtual - quantidadeDeDano < 0) {
-            saudeAtual = 0;
-        } else {
-            saudeAtual -= quantidadeDeDano;
-        }
+        saudeAtual = Math.max(saudeAtual - quantidadeDeDano, 0);
     }
 
     public void receberCura(int quantidadeDeCura) {
-        if (saudeAtual + quantidadeDeCura > 100) {
-            saudeAtual = 100;
-        } else {
-            saudeAtual += quantidadeDeCura;
-        }
+        saudeAtual = Math.min(saudeAtual + quantidadeDeCura, 100);
     }
 }
