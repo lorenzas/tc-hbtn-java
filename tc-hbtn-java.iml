@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
+      <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
