@@ -8,12 +8,14 @@
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper/inteiro_positivo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.idea/0x04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x09" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/metodos" />
+      <excludeFolder url="file://$MODULE_DIR$/0x04/consistencia" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
