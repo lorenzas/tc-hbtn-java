@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x09" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -17,6 +18,10 @@
       <excludeFolder url="file://$MODULE_DIR$/0x09/agregacao" />
       <excludeFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper/inteiro_positivo" />
       <excludeFolder url="file://$MODULE_DIR$/0x10/plano_mordor" />
+      <excludeFolder url="file://$MODULE_DIR$/0x01/maiusculo" />
+      <excludeFolder url="file://$MODULE_DIR$/0x01/numeros" />
+      <excludeFolder url="file://$MODULE_DIR$/0x01/somar" />
+      <excludeFolder url="file://$MODULE_DIR$/0x01/pares" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
