@@ -25,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/0x05/heranca" />
       <excludeFolder url="file://$MODULE_DIR$/0x05/forma" />
       <excludeFolder url="file://$MODULE_DIR$/0x05/retangulo" />
+      <excludeFolder url="file://$MODULE_DIR$/0x05/retangulo_completo" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
