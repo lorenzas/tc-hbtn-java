@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/.idea/0x04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x04" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x09" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/0x10/plano_mordor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x01" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -16,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/0x04/consistencia" />
       <excludeFolder url="file://$MODULE_DIR$/0x09/agregacao" />
       <excludeFolder url="file://$MODULE_DIR$/TiposPrimitivos_Wrapper/inteiro_positivo" />
+      <excludeFolder url="file://$MODULE_DIR$/0x10/plano_mordor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
