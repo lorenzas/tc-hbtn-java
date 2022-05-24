@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x09" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x01" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0X06/pedido_livraria" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -27,6 +28,7 @@
       <excludeFolder url="file://$MODULE_DIR$/0x05/retangulo" />
       <excludeFolder url="file://$MODULE_DIR$/0x05/retangulo_completo" />
       <excludeFolder url="file://$MODULE_DIR$/0x05/quadrado" />
+      <excludeFolder url="file://$MODULE_DIR$/0x05/abstrata" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
