@@ -36,6 +36,7 @@
       <excludeFolder url="file://$MODULE_DIR$/0x07/workflow" />
       <excludeFolder url="file://$MODULE_DIR$/0x08/workflow" />
       <excludeFolder url="file://$MODULE_DIR$/0x08/resumo_pedido" />
+      <excludeFolder url="file://$MODULE_DIR$/List/todo" />
       <excludeFolder url="file://$MODULE_DIR$/List/numeros" />
     </content>
     <orderEntry type="inheritedJdk" />
