@@ -2,10 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListaTodo {
-    private List<Tarefa> tarefas;
+    private List<Tarefa> tarefas = new ArrayList<>();
 
     public ListaTodo() {
-        tarefas = new ArrayList<>();
+
+    }
+
+    public ListaTodo(List<Tarefa> tarefas) {
+        this.tarefas = tarefas;
     }
 
     public void adicionarTarefa(Tarefa tarefa) {
@@ -52,7 +56,7 @@ public class ListaTodo {
 
     public void listarTarefas(){
         for (Tarefa tarefa : tarefas) {
-            System.out.println((tarefa.isEstahFeita() ? "[X]" : "[ ]") + " Id: " + tarefa.getIdentificador() + " - Descricao: " + tarefa.getDescricao());
+            System.out.println((tarefa.isEstahFeita() ? "[X]" : "[ ]") + "  Id: " + tarefa.getIdentificador() + " - Descricao: " + tarefa.getDescricao());
         }
     }
 
