@@ -4,10 +4,14 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class Pedido {
-    List<PedidoCookie> cookies;
+    List<PedidoCookie> cookies = new ArrayList<>();
 
     public Pedido() {
-        this.cookies = new ArrayList<>();
+
+    }
+
+    public Pedido(List<PedidoCookie> cookies) {
+        this.cookies = cookies;
     }
 
     public void adicionarPedidoCookie(PedidoCookie pedidoCookie) {
