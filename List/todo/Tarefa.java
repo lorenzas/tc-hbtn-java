@@ -13,7 +13,7 @@ public class Tarefa {
     }
 
     public void setDescricao(String descricao) {
-        if (!descricao.isEmpty()) {
+        if (descricao != null && !descricao.isEmpty()) {
             this.descricao = descricao;
         } else {
             throw new IllegalArgumentException("Descricao de tarefa invalida");
