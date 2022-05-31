@@ -1,12 +1,12 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Banco {
     private String nome;
-    private List<Agencia> agencias = new ArrayList<>();
+    private ArrayList<Agencia> agencias;
 
     public Banco(String nome) {
         this.nome = nome;
+        this.agencias = new ArrayList<>();
     }
 
     public Agencia buscarAgencia(String nome) {
@@ -51,11 +51,11 @@ public class Banco {
     public boolean listarClientes(String nomeAgencia, boolean imprimeTransacoes) {
         Agencia agencia = buscarAgencia(nomeAgencia);
         if (agencia != null) {
-            List<Cliente> clientes = agencia.getClientes();
+            ArrayList<Cliente> clientes = agencia.getClientes();
             for (int i = 0; i < clientes.size(); i++) {
                 System.out.printf("Cliente: %s [%d]\n", clientes.get(i).getNome(), i + 1);
                 if (imprimeTransacoes) {
-                    List<Double> transacoes = clientes.get(i).getTransacoes();
+                    ArrayList<Double> transacoes = clientes.get(i).getTransacoes();
                     for (int j = 0; j < transacoes.size(); j++) {
                         System.out.printf("  [%d] valor %.2f\n", j + 1, transacoes.get(j));
                     }

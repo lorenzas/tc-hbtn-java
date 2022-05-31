@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Cliente {
     private String nome;
-    private List<Double> transacoes = new ArrayList<>();
+    private ArrayList<Double> transacoes;
 
     public Cliente(String nome, double valorTransacaoInicial) {
         this.nome = nome;
@@ -16,7 +16,7 @@ public class Cliente {
         return nome;
     }
 
-    public List<Double> getTransacoes() {
+    public ArrayList<Double> getTransacoes() {
         return transacoes;
     }
 

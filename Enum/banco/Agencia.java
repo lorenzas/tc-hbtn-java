@@ -1,19 +1,19 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Agencia {
     private String nome;
-    private List<Cliente> clientes = new ArrayList<>();
+    private ArrayList<Cliente> clientes;
 
     public Agencia(String nome) {
         this.nome = nome;
+        this.clientes = new ArrayList<>();
     }
 
     public String getNome() {
         return nome;
     }
 
-    public List<Cliente> getClientes() {
+    public ArrayList<Cliente> getClientes() {
         return clientes;
     }
 
