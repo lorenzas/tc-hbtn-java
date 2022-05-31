@@ -3,11 +3,10 @@ import java.util.List;
 
 public class Banco {
     private String nome;
-    private List<Agencia> agencias;
+    private List<Agencia> agencias = new ArrayList<>();
 
     public Banco(String nome) {
         this.nome = nome;
-        this.agencias = new ArrayList<>();
     }
 
     public Agencia buscarAgencia(String nome) {

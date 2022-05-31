@@ -3,11 +3,10 @@ import java.util.List;
 
 public class Agencia {
     private String nome;
-    private List<Cliente> clientes;
+    private List<Cliente> clientes = new ArrayList<>();
 
     public Agencia(String nome) {
         this.nome = nome;
-        this.clientes = new ArrayList<>();
     }
 
     public String getNome() {

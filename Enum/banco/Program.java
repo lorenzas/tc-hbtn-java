@@ -1,9 +1,6 @@
-import java.util.Locale;
-
 public class Program {
 
     public static void main(String[] args) {
-        Locale.setDefault(new Locale("pt", "BR"));
         Banco banco = new Banco("Banco do Brasil");
 
         banco.adicionarAgencia("Alameda");
