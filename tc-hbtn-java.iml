@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0X06/pedido_livraria" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x06" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Set_Map/telefones" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Set_Map/telefones_duplicados" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -43,6 +43,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Enum/banco" />
       <excludeFolder url="file://$MODULE_DIR$/Set_Map/analisador_frase" />
       <excludeFolder url="file://$MODULE_DIR$/Set_Map/duplicados" />
+      <excludeFolder url="file://$MODULE_DIR$/Set_Map/telefones" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
