@@ -40,6 +40,10 @@ public class Telefone {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getCodigoArea(), getNumero());
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((codigoArea == null) ? 0 : codigoArea.hashCode());
+        result = prime * result + ((numero == null) ? 0 : numero.hashCode());
+        return result;
     }
 }
