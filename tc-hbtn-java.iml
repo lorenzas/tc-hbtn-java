@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0X06/pedido_livraria" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x06" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/0x02/divisao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x02/quadrado" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -50,6 +50,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Generics_exercises/armazem_especifico" />
       <excludeFolder url="file://$MODULE_DIR$/Collections_Exercicios/blog" />
       <excludeFolder url="file://$MODULE_DIR$/Collections_Exercicios/postagem_blog" />
+      <excludeFolder url="file://$MODULE_DIR$/0x02/divisao" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
