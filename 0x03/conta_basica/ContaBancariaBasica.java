@@ -43,7 +43,7 @@ public class ContaBancariaBasica {
         saldo = getSaldo() - valor;
     }
 
-    public double calcularTarfifaMensal() {
+    public double calcularTarifaMensal() {
         final double TARIFA_FIXA = 10;
         double tarifa = getSaldo() * 0.1;
         return (tarifa < TARIFA_FIXA) ? tarifa : TARIFA_FIXA;
@@ -54,6 +54,6 @@ public class ContaBancariaBasica {
     }
 
     public void aplicarAtualizacaoMensal() {
-        saldo = getSaldo() - calcularTarfifaMensal() + calcularJurosMensal();
+        saldo = getSaldo() - calcularTarifaMensal() + calcularJurosMensal();
     }
 }
