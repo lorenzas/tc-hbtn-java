@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0X06/pedido_livraria" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x06" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/0x02/quadrado" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x03/salario" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -51,6 +51,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Collections_Exercicios/blog" />
       <excludeFolder url="file://$MODULE_DIR$/Collections_Exercicios/postagem_blog" />
       <excludeFolder url="file://$MODULE_DIR$/0x02/divisao" />
+      <excludeFolder url="file://$MODULE_DIR$/0x02/quadrado" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
