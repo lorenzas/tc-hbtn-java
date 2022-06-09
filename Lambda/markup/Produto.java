@@ -6,7 +6,7 @@ public class Produto {
     private double preco;
     private double percentualMarkup;
     public Supplier<Double> precoComMarkup = () -> getPreco() + (getPreco() * (getPercentualMarkup() / 100));
-    public Consumer<Double> atualizarMarkup = (valor) -> setPercentualMarkup(valor);
+    public Consumer<Double> atualizarMarkup = (valor) -> percentualMarkup = valor;
 
     public Produto(double preco, String nome) {
         this.preco = preco;
