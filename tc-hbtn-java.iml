@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x05" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0X06/pedido_livraria" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x06" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/pedidos_eletronico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/desconto_eletronicos" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
@@ -63,6 +63,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/livros" />
       <excludeFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/maior_preco" />
       <excludeFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/preco_minimo" />
+      <excludeFolder url="file://$MODULE_DIR$/Streams_Collectors_Optional/pedidos_eletronico" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
