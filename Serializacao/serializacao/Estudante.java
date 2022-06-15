@@ -4,6 +4,7 @@ public class Estudante implements Serializable {
     private int idade;
     private String nome;
     transient private String senha;
+    private static final long serialVersionUID = -986697178335630823L;
 
     public Estudante(int idade, String nome, String senha) {
         this.idade = idade;
