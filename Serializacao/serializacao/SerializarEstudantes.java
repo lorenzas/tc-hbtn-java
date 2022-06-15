@@ -51,7 +51,7 @@ public class SerializarEstudantes<Estudante> {
                     fileInputStream.close();
                 }
             } catch (Exception e) {
-                System.out.println("Nao foi possivel serializar");
+                System.out.println("Nao foi possivel desserializar");
             }
         }
         return estudantes;
